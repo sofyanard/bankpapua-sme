@@ -197,8 +197,18 @@
         <script language="javascript">
             function buka() {
                 window.open("../DataEntry/SkalaAngsuran_Main.aspx", "", "width=640,height=400, scrollbars=yes");
+			}
+
+            function PopupPage(href, width, height) {
+                // if (popupWindow != null) return;
+                var X = (screen.width - width) / 2;
+                var Y = (screen.height - height) / 2;
+
+                var popupWindow = window.open(href, "",
+                    "height=" + height + "px,width=" + width + "px,left=" + X + ",top=" + Y +
+                    ",status=no,toolbar=no,titlebar=no,menubar=no,location=no,dependent=yes,scrollbars=yes");
             }
-		</script>
+        </script>
 </head>
 <body>
     <form id="Form1" runat="server">
@@ -309,6 +319,12 @@
 									<td class="TDBGColor1">Old Account No.</td>
 									<td style="WIDTH: 15px"></td>
 									<td class="TDBGColorValue"><asp:textbox id="TXT_OLDACCNO" runat="server" CssClass="mandatory" MaxLength="19"></asp:textbox></td>
+								</tr>
+								<tr id="TR_MOBILEAPPINFO" runat="server">
+									<td colspan="3">
+										<input onclick="javascript: PopupPage('MobileApplicationInfo.aspx?regno=<%=Request.QueryString["regno"]%>', '800', '600');"
+                                            type="button" value="View Info from Mobile Apps">
+									</td>
 								</tr>
 							</table>
 							<asp:label id="LBL_MAINREGNO" runat="server" Visible="False"></asp:label><asp:label id="LBL_MAINPROD_SEQ" runat="server" Visible="False"></asp:label><asp:label id="LBL_MAINPRODUCTID" runat="server" Visible="False"></asp:label>

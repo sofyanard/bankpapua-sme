@@ -28,7 +28,7 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <UseIISExpress>false</UseIISExpress>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <OldToolsVersion>4.0</OldToolsVersion>
     <TargetFrameworkProfile />
     <IISExpressSSLPort />
@@ -5894,6 +5894,13 @@
     <Compile Include="InitialDataEntry\ListPreScoring.aspx.designer.cs">
       <DependentUpon>ListPreScoring.aspx</DependentUpon>
     </Compile>
+    <Compile Include="InitialDataEntry\MobileApplicationInfo.aspx.cs">
+      <DependentUpon>MobileApplicationInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InitialDataEntry\MobileApplicationInfo.aspx.designer.cs">
+      <DependentUpon>MobileApplicationInfo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="InitialDataEntry\PeriodicScoring.aspx.cs">
       <DependentUpon>PeriodicScoring.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -8738,6 +8745,20 @@
     </Compile>
     <Compile Include="MAS\SupervisionManagement\Reporting\SupervisionManagementReporting.aspx.designer.cs">
       <DependentUpon>SupervisionManagementReporting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MobileApplication\ProcessApplication.aspx.cs">
+      <DependentUpon>ProcessApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MobileApplication\ProcessApplication.aspx.designer.cs">
+      <DependentUpon>ProcessApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MobileApplication\ProcessCustomer.aspx.cs">
+      <DependentUpon>ProcessCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MobileApplication\ProcessCustomer.aspx.designer.cs">
+      <DependentUpon>ProcessCustomer.aspx</DependentUpon>
     </Compile>
     <Compile Include="MyConnection.cs">
       <SubType>Code</SubType>
@@ -12702,6 +12723,7 @@
     <Content Include="InitialDataEntry\InfoPerusahaan.aspx" />
     <Content Include="InitialDataEntry\KetentuanKredit.aspx" />
     <Content Include="InitialDataEntry\ListPreScoring.aspx" />
+    <Content Include="InitialDataEntry\MobileApplicationInfo.aspx" />
     <Content Include="InitialDataEntry\PeriodicScoring.aspx">
       <SubType>Form</SubType>
     </Content>
@@ -13639,6 +13661,8 @@
     <Content Include="MAS\SupervisionManagement\Reporting\SupervisionManagementReporting.aspx">
       <SubType>Form</SubType>
     </Content>
+    <Content Include="MobileApplication\ProcessApplication.aspx" />
+    <Content Include="MobileApplication\ProcessCustomer.aspx" />
     <Content Include="PendingApplicationInfo.aspx">
       <SubType>Form</SubType>
     </Content>

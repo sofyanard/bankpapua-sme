@@ -7,561 +7,399 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SME.InitialDataEntry
+namespace SME.MobileApplication
 {
 
 
-    public partial class PermohonanBaru2
+    public partial class ProcessCustomer
     {
 
         /// <summary>
-        /// Form1 control.
+        /// form1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm Form1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Menu control.
+        /// GridView1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder Menu;
+        protected global::System.Web.UI.WebControls.GridView GridView1;
 
         /// <summary>
-        /// TR_JENISPENGAJUAN control.
+        /// LblGelarSebelum control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlTableRow TR_JENISPENGAJUAN;
+        protected global::System.Web.UI.WebControls.Label LblGelarSebelum;
 
         /// <summary>
-        /// DDL_APPTYPE control.
+        /// LblNamaLengkap control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DDL_APPTYPE;
+        protected global::System.Web.UI.WebControls.Label LblNamaLengkap;
 
         /// <summary>
-        /// DDL_PRODUCTID control.
+        /// LblGelarSesudah control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DDL_PRODUCTID;
+        protected global::System.Web.UI.WebControls.Label LblGelarSesudah;
 
         /// <summary>
-        /// TXT_CP_EXLIMITVAL control.
+        /// LblJenisKelamin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXT_CP_EXLIMITVAL;
+        protected global::System.Web.UI.WebControls.Label LblJenisKelamin;
 
         /// <summary>
-        /// TXT_CP_EXRPLIMIT control.
+        /// LblTempatLahir control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXT_CP_EXRPLIMIT;
+        protected global::System.Web.UI.WebControls.Label LblTempatLahir;
 
         /// <summary>
-        /// TXT_CP_LIMIT control.
+        /// LblTanggalLahir control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXT_CP_LIMIT;
+        protected global::System.Web.UI.WebControls.Label LblTanggalLahir;
 
         /// <summary>
-        /// TXT_CP_JANGKAWKT control.
+        /// LblNoIdentitas control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXT_CP_JANGKAWKT;
+        protected global::System.Web.UI.WebControls.Label LblNoIdentitas;
 
         /// <summary>
-        /// DDL_CP_TENORCODE control.
+        /// LblAlamatRumah control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DDL_CP_TENORCODE;
+        protected global::System.Web.UI.WebControls.Label LblAlamatRumah;
 
         /// <summary>
-        /// DDL_CP_LOANPURPOSE control.
+        /// LblKelurahanRumah control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DDL_CP_LOANPURPOSE;
+        protected global::System.Web.UI.WebControls.Label LblKelurahanRumah;
 
         /// <summary>
-        /// LBL_SEQ control.
+        /// LblKecamatanRumah control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LBL_SEQ;
+        protected global::System.Web.UI.WebControls.Label LblKecamatanRumah;
 
         /// <summary>
-        /// LBL_USERID control.
+        /// LblKotaKabRumah control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LBL_USERID;
+        protected global::System.Web.UI.WebControls.Label LblKotaKabRumah;
 
         /// <summary>
-        /// DDL_PROJECT_CODE control.
+        /// LblPropinsiRumah control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DDL_PROJECT_CODE;
+        protected global::System.Web.UI.WebControls.Label LblPropinsiRumah;
 
         /// <summary>
-        /// TXT_CP_NOTES control.
+        /// LblKodePosRumah control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXT_CP_NOTES;
+        protected global::System.Web.UI.WebControls.Label LblKodePosRumah;
 
         /// <summary>
-        /// CHK_COLLATERAL control.
+        /// LblTeleponRumah control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CHK_COLLATERAL;
+        protected global::System.Web.UI.WebControls.Label LblTeleponRumah;
 
         /// <summary>
-        /// CHK_ALIHDEB control.
+        /// LblTeleponGenggam control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CHK_ALIHDEB;
+        protected global::System.Web.UI.WebControls.Label LblTeleponGenggam;
 
         /// <summary>
-        /// TR_OLDCIFNO control.
+        /// LblNamaIbuKandung control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlTableRow TR_OLDCIFNO;
+        protected global::System.Web.UI.WebControls.Label LblNamaIbuKandung;
 
         /// <summary>
-        /// TXT_OLDCIFNO control.
+        /// LblPendidikan control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXT_OLDCIFNO;
+        protected global::System.Web.UI.WebControls.Label LblPendidikan;
 
         /// <summary>
-        /// TR_OLDACCNO control.
+        /// LblStatusPerkawinan control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlTableRow TR_OLDACCNO;
+        protected global::System.Web.UI.WebControls.Label LblStatusPerkawinan;
 
         /// <summary>
-        /// TXT_OLDACCNO control.
+        /// LblKewarganegaraan control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXT_OLDACCNO;
+        protected global::System.Web.UI.WebControls.Label LblKewarganegaraan;
 
         /// <summary>
-        /// TR_MOBILEAPPINFO control.
+        /// LblStatusRumah control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlTableRow TR_MOBILEAPPINFO;
+        protected global::System.Web.UI.WebControls.Label LblStatusRumah;
 
         /// <summary>
-        /// LBL_MAINREGNO control.
+        /// LblId control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LBL_MAINREGNO;
+        protected global::System.Web.UI.WebControls.Label LblId;
 
         /// <summary>
-        /// LBL_MAINPROD_SEQ control.
+        /// LblUserName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LBL_MAINPROD_SEQ;
+        protected global::System.Web.UI.WebControls.Label LblUserName;
 
         /// <summary>
-        /// LBL_MAINPRODUCTID control.
+        /// LblJenisPekerjaan control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LBL_MAINPRODUCTID;
+        protected global::System.Web.UI.WebControls.Label LblJenisPekerjaan;
 
         /// <summary>
-        /// TR_COLL control.
+        /// LblPendapatan control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlTableRow TR_COLL;
+        protected global::System.Web.UI.WebControls.Label LblPendapatan;
 
         /// <summary>
-        /// DatGrd control.
+        /// LblAlamatKantor control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DataGrid DatGrd;
+        protected global::System.Web.UI.WebControls.Label LblAlamatKantor;
 
         /// <summary>
-        /// RDO_COLLATERAL control.
+        /// LblKotaKabKantor control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList RDO_COLLATERAL;
+        protected global::System.Web.UI.WebControls.Label LblKotaKabKantor;
 
         /// <summary>
-        /// Label1 control.
+        /// LblPropinsiKantor control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Label LblPropinsiKantor;
 
         /// <summary>
-        /// DDL_CL_TYPE control.
+        /// LblKodePosKantor control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DDL_CL_TYPE;
+        protected global::System.Web.UI.WebControls.Label LblKodePosKantor;
 
         /// <summary>
-        /// DDL_CL_TYPE_EXISTING control.
+        /// LblTeleponKantor control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DDL_CL_TYPE_EXISTING;
+        protected global::System.Web.UI.WebControls.Label LblTeleponKantor;
 
         /// <summary>
-        /// LBL_SISAUTILIZATION control.
+        /// LblNamaSaudara control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LBL_SISAUTILIZATION;
+        protected global::System.Web.UI.WebControls.Label LblNamaSaudara;
 
         /// <summary>
-        /// TXT_LC_PERCENTAGE control.
+        /// LblAlamatSaudara control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXT_LC_PERCENTAGE;
+        protected global::System.Web.UI.WebControls.Label LblAlamatSaudara;
 
         /// <summary>
-        /// Label2 control.
+        /// LblKotaKabSaudara control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Label LblKotaKabSaudara;
 
         /// <summary>
-        /// TXT_CL_DESC control.
+        /// LblPropinsiSaudara control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXT_CL_DESC;
+        protected global::System.Web.UI.WebControls.Label LblPropinsiSaudara;
 
         /// <summary>
-        /// TXT_COL_ID control.
+        /// LblKodePosSaudara control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXT_COL_ID;
+        protected global::System.Web.UI.WebControls.Label LblKodePosSaudara;
 
         /// <summary>
-        /// DDL_BUKTI_KEPEMILIKAN control.
+        /// LblHubunganSaudara control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DDL_BUKTI_KEPEMILIKAN;
+        protected global::System.Web.UI.WebControls.Label LblHubunganSaudara;
 
         /// <summary>
-        /// DDL_BENTUK_PENGIKATAN control.
+        /// GridView2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DDL_BENTUK_PENGIKATAN;
+        protected global::System.Web.UI.WebControls.GridView GridView2;
 
         /// <summary>
-        /// DDL_CL_COLCLASSIFY control.
+        /// noktp control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DDL_CL_COLCLASSIFY;
+        protected global::System.Web.UI.WebControls.TextBox noktp;
 
         /// <summary>
-        /// DDL_CL_CURRENCY control.
+        /// nama control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DDL_CL_CURRENCY;
+        protected global::System.Web.UI.WebControls.TextBox nama;
 
         /// <summary>
-        /// TXT_CL_EXCHANGERATE control.
+        /// tanggal control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXT_CL_EXCHANGERATE;
+        protected global::System.Web.UI.WebControls.TextBox tanggal;
 
         /// <summary>
-        /// TXT_CL_FOREIGNVAL control.
+        /// alamat control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXT_CL_FOREIGNVAL;
+        protected global::System.Web.UI.WebControls.TextBox alamat;
 
         /// <summary>
-        /// TXT_CL_VALUE control.
+        /// kota control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXT_CL_VALUE;
-
-        /// <summary>
-        /// TXT_CL_FOREIGNVAL2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXT_CL_FOREIGNVAL2;
-
-        /// <summary>
-        /// TXT_CL_VALUE2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXT_CL_VALUE2;
-
-        /// <summary>
-        /// TXT_CL_FOREIGNVALINS control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXT_CL_FOREIGNVALINS;
-
-        /// <summary>
-        /// TXT_CL_VALUEINS control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXT_CL_VALUEINS;
-
-        /// <summary>
-        /// TXT_CL_FOREIGNVALIKAT control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXT_CL_FOREIGNVALIKAT;
-
-        /// <summary>
-        /// TXT_CL_VALUEIKAT control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXT_CL_VALUEIKAT;
-
-        /// <summary>
-        /// TXT_CL_FOREIGNVALPPA control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXT_CL_FOREIGNVALPPA;
-
-        /// <summary>
-        /// TXT_CL_VALUEPPA control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXT_CL_VALUEPPA;
-
-        /// <summary>
-        /// TXT_CL_FOREIGNVALLIQ control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXT_CL_FOREIGNVALLIQ;
-
-        /// <summary>
-        /// TXT_CL_VALUELIQ control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXT_CL_VALUELIQ;
-
-        /// <summary>
-        /// TXT_TGLPENILAIAN_DAY control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXT_TGLPENILAIAN_DAY;
-
-        /// <summary>
-        /// DDL_TGLPENILAIAN_MONTH control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DDL_TGLPENILAIAN_MONTH;
-
-        /// <summary>
-        /// TXT_TGLPENILAIAN_YEAR control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXT_TGLPENILAIAN_YEAR;
-
-        /// <summary>
-        /// DDL_PENILAI_OLEH control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DDL_PENILAI_OLEH;
-
-        /// <summary>
-        /// BTN_INSCOLL control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BTN_INSCOLL;
-
-        /// <summary>
-        /// TR_BUTTONS control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlTableRow TR_BUTTONS;
-
-        /// <summary>
-        /// BTN_SAVE control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BTN_SAVE;
-
-        /// <summary>
-        /// Button2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.DropDownList kota;
 
         /// <summary>
         /// Button1 control.
@@ -573,12 +411,48 @@ namespace SME.InitialDataEntry
         protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
-        /// DATAGRID1 control.
+        /// Button2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DataGrid DATAGRID1;
+        protected global::System.Web.UI.WebControls.Button Button2;
+
+        /// <summary>
+        /// GridView3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GridView3;
+
+        /// <summary>
+        /// Button3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button3;
+
+        /// <summary>
+        /// TxtLosCuRef control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TxtLosCuRef;
+
+        /// <summary>
+        /// Button4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button4;
     }
 }
