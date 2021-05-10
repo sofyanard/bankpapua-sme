@@ -218,7 +218,7 @@ namespace SME.Appraisal {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Table Table_List;
-        
+
         /// <summary>
         /// coldetail control.
         /// </summary>
@@ -226,6 +226,7 @@ namespace SME.Appraisal {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl coldetail;
+        //protected global::System.Web.UI.HtmlControls.HtmlGenericControl coldetail;
+        protected global::System.Web.UI.HtmlControls.HtmlIframe coldetail;
     }
 }
